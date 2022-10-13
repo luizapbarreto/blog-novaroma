@@ -20,7 +20,7 @@ import com.novaroma.blog.repository.PostagemRepository;
 
 @RestController
 @RequestMapping("/postagens")
-@CrossOrigin("*") /*aceitar requisições de qualquer origem*/
+@CrossOrigin("/*") /*aceitar requisições de qualquer origem*/
 public class PostagemController {
 
 	@Autowired
